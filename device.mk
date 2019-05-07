@@ -21,8 +21,8 @@
 #
 $(call inherit-product, vendor/oneplus/oneplus6/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-$(call inherit-product, vendor/omni/config/phone-xxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/omni/config/phone-xxhdpi-2048-hwui-memory.mk)
+#$(call inherit-product, vendor/omni/config/phone-xxhdpi-4096-dalvik-heap.mk)
+#$(call inherit-product, vendor/omni/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 #from build treble includes
 PRODUCT_COPY_FILES += \
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 PRODUCT_PACKAGES += \
-    omni_charger_res_images \
+    #omni_charger_res_images \
     animation.txt \
     font_charger.png
 
