@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common Stag stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/bootleggers/config/common.mk)
 
 
-PRODUCT_NAME := stag_enchilada
+PRODUCT_NAME := bootleg_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
