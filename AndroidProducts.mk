@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_enchilada.mk
+    $(LOCAL_DIR)/bootleg_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_enchilada-user \
-    potato_enchilada-userdebug \
-    potato_enchilada-eng
+    bootleg_enchilada-user \
+    bootleg_enchilada-userdebug \
+    bootleg_enchilada-eng
